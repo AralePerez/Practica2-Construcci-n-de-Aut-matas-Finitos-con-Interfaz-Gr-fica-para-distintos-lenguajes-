@@ -45,17 +45,6 @@ El código está organizado en carpetas para facilitar su comprensión y manteni
 
 ---
 
-### 🧪 Archivos de prueba
-
-Se incluyen ejemplos para probar el funcionamiento:
-
-* Archivos de autómatas en formato:
-
-* .jff
-* Cadenas de prueba para validación
-
----
-
 ## Archivos completos de la práctica
 
 Debido a los requerimientos de la entrega, los archivos completos del proyecto (incluyendo versiones comprimidas `.zip`) se encuentran disponibles en el siguiente enlace de Google Drive:
@@ -67,8 +56,6 @@ Estos archivos incluyen:
 * Autómatas en formato `.jff`, `.json` y `.xml`
 * Código fuente completo
 * Archivos necesarios para la ejecución del programa
-
-
 
 ---
 
@@ -106,14 +93,12 @@ python 1.py
 
 * Ejecutar el programa desde la carpeta `UL` para evitar errores de rutas
 * No modificar la estructura de carpetas incluida en el `.zip`
-
-
-
+  
 ---
 ## Notas importantes
 
-* Este repositorio contiene únicamente el avance correspondiente a la **Lista 2**
-* La implementación de la **Lista 3 (AFND y AFND-λ)** no está incluida
+* Este repositorio contiene únicamente el avance correspondiente a la Lista 2
+* La implementación de la Lista 3 (AFND y AFND-λ) no está incluida
 * Los autómatas fueron desarrollados en JFLAP y exportados a múltiples formatos
 
 ---
