@@ -2,9 +2,9 @@
 
 ## Introducción
 
-Este repositorio contiene el desarrollo parcial de la práctica de autómatas, enfocado en la **Lista 2**, donde originalmente se trabajó con **AFD (Autómatas Finitos Deterministas)** y posteriormente se realizó su conversión a **AFN (Autómatas Finitos No Deterministas)**.
+Este repositorio contiene el desarrollo de la práctica de autómatas enfocado en la **Lista 2**, donde originalmente se trabajó con **AFD (Autómatas Finitos Deterministas)** y posteriormente se realizó su conversión a **AFN (Autómatas Finitos No Deterministas)**.
 
-Además, se incluye una aplicación con interfaz gráfica para trabajar con los autómatas desarrollados.
+Además, se incluye una aplicación con interfaz gráfica que permite trabajar con los autómatas desarrollados.
 
 ---
 
@@ -31,6 +31,7 @@ Se incluyen los autómatas correspondientes a la Lista 2:
   * `.json`
   * `.xml`
 * Conversión realizada de AFD a AFN
+
 ---
 
 ### Código fuente
@@ -55,54 +56,74 @@ Estos archivos incluyen:
 
 * Autómatas en formato `.jff`, `.json` y `.xml`
 * Código fuente completo
-* Archivos necesarios para la ejecución del programa
+* Entorno de ejecución listo para usarse
 
 ---
 
 ## Instrucciones para ejecutar la práctica (entorno incluido)
 
-Para facilitar la revisión, se incluye un entorno listo para ejecutar los autómatas sin necesidad de instalar múltiples versiones de JFLAP.
+Para facilitar la revisión, se incluye un entorno listo para ejecutar el proyecto sin necesidad de instalar múltiples versiones de JFLAP.
 
-### Pasos a seguir:
+### Método recomendado (rápido)
 
-1. Descargar el archivo `UL.zip` desde el enlace de Google Drive
+1. Descargar el archivo `UL.zip` desde Google Drive
 2. Extraer el contenido del archivo `.zip`
 3. Abrir la carpeta `UL`
-4. Ubicar el archivo `1.py`
-5. Ejecutar el archivo `1.py` utilizando Python:
+4. Ejecutar:
+
+👉 Doble clic en:
+
+```bash
+setup.bat
+```
+
+---
+
+### Método alternativo (manual)
+
+1. Abrir la carpeta `UL`
+
+2. Abrir una terminal dentro de la carpeta:
+
+   * Escribir `cmd` en la barra de direcciones y presionar Enter
+
+3. Ejecutar:
 
 ```bash
 python 1.py
 ```
 
-6. A través de la interfaz proporcionada:
+---
 
-   * Cargar los archivos de autómatas (`.jff`, `.json` o `.xml`)
-   * Ingresar cadenas de prueba
-   * Ejecutar la validación
+### Uso del programa
+
+1. Ejecutar el programa
+2. Cargar un archivo de autómata (`.jff`, `.json` o `.xml`)
+3. Ingresar una cadena de prueba
+4. Ejecutar la validación para verificar si la cadena es aceptada o rechazada
 
 ---
 
-* El entorno incluido ya contiene las configuraciones necesarias para evitar problemas de compatibilidad con JFLAP
-* No es necesario instalar versiones adicionales de JFLAP
-* Asegurarse de tener Python instalado en el sistema
-
----
-
-### Neceaario:
-
-* Ejecutar el programa desde la carpeta `UL` para evitar errores de rutas
-* No modificar la estructura de carpetas incluida en el `.zip`
-  
----
 ## Notas importantes
 
-* Este repositorio contiene únicamente el avance correspondiente a la Lista 2
-* La implementación de la Lista 3 (AFND y AFND-λ) no está incluida
+* El entorno incluido ya contiene las configuraciones necesarias
+* No es necesario instalar JFLAP manualmente
+* Asegurarse de tener Python instalado (versión 3.8 o superior)
+* Ejecutar siempre desde la carpeta `UL`
+* No modificar la estructura de carpetas del `.zip`
+
+---
+
+## Alcance de la práctica
+
+* Este repositorio contiene únicamente la **Lista 2**
+* La **Lista 3 (AFND y AFND-λ)** no está incluida
 * Los autómatas fueron desarrollados en JFLAP y exportados a múltiples formatos
 
 ---
 
-## Autor
+## Autores
 
-* Nombre del alumno:Perez Flores Arale, Juarez Hipolito Marco Antonio, Roque Villegas Ivan
+* Perez Flores Arale
+* Juarez Hipolito Marco Antonio
+* Roque Villegas Ivan
