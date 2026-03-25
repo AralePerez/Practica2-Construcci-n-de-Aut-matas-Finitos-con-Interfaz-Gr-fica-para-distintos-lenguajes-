@@ -64,7 +64,7 @@ Estos archivos incluyen:
 
 Para facilitar la revisión, se incluye un entorno listo para ejecutar el proyecto sin necesidad de instalar múltiples versiones de JFLAP.
 
-### Método recomendado (rápido)
+### Método recomendado 
 
 1. Descargar el archivo `UL.zip` desde Google Drive
 2. Extraer el contenido del archivo `.zip`
@@ -79,7 +79,7 @@ setup.bat
 
 ---
 
-### Método alternativo (manual)
+### Método alternativo 
 
 1. Abrir la carpeta `UL`
 
@@ -90,7 +90,7 @@ setup.bat
 3. Ejecutar:
 
 ```bash
-python 1.py
+python codigo.py
 ```
 
 ---
