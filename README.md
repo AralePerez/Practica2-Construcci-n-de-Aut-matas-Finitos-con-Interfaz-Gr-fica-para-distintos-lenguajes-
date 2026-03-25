@@ -21,6 +21,8 @@ El objetivo de esta práctica es:
 
 ## Contenido del repositorio
 
+*Codigo LATEX, liga para visualizar el documento con linea de codigo: https://www.overleaf.com/project/69c20d73cfeff267de893351
+
 ### Lista 2 – Autómatas
 
 Se incluyen los autómatas correspondientes a la Lista 2:
