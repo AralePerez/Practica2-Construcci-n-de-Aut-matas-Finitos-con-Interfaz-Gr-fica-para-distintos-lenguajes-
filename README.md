@@ -45,72 +45,44 @@ El repositorio contiene el código de una aplicación con interfaz gráfica que 
 El código está organizado en carpetas para facilitar su comprensión y mantenimiento.
 
 ---
+##  Archivos completos de la práctica
 
-## Archivos completos de la práctica
+Para facilitar la revisión, se proporciona un archivo comprimido que contiene todo el entorno necesario para ejecutar el proyecto.
 
-Debido a los requerimientos de la entrega, los archivos completos del proyecto (incluyendo versiones comprimidas `.zip`) se encuentran disponibles en el siguiente enlace de Google Drive:
+🔗 Descarga aquí:
+https://drive.google.com/file/d/1Q5JPB9oI7GzTaTEWEl0l_-C8HOVDym7d/view?usp=sharing
 
-🔗 https://drive.google.com/file/d/1s7UsXH9mp0jdCbLuEvmIljsb8KmYEXFa/view?usp=sharing
+ Archivo incluido:
 
-Estos archivos incluyen:
+* `PRAC2.zip` (contiene la carpeta `afd_simulator_project` con el entorno y programa listo para ejecutar)
 
-* Autómatas en formato `.jff`, `.json` y `.xml`
-* Código fuente completo
-* Entorno de ejecución listo para usarse
+Este archivo incluye:
 
----
-
-## Instrucciones para ejecutar la práctica (entorno incluido)
-
-Para facilitar la revisión, se incluye un entorno listo para ejecutar el proyecto sin necesidad de instalar múltiples versiones de JFLAP.
-
-### Método recomendado 
-
-1. Descargar el archivo `UL.zip` desde Google Drive
-2. Extraer el contenido del archivo `.zip`
-3. Abrir la carpeta `UL`
-4. Ejecutar:
-
-👉 Doble clic en:
-
-```bash
-setup.bat
-```
+* Código fuente del proyecto
+* Entorno de ejecución configurado
+* Archivos de autómatas (`.jff`, `.json`, `.xml`)
 
 ---
 
-### Método alternativo 
+## Instrucciones para ejecutar desde el archivo ZIP
 
-1. Abrir la carpeta `UL`
-
-2. Abrir una terminal dentro de la carpeta:
-
-   * Escribir `cmd` en la barra de direcciones y presionar Enter
-
+1. Abrir la carpeta `afd_simulator_project`
+2. Abrir una terminal en esa carpeta (escribir `cmd` en la barra de direcciones)
 3. Ejecutar:
 
 ```bash
-python codigo.py
+pyton main.py
+o tambien solo hacer click en el main y se abrira 
 ```
 
 ---
 
-### Uso del programa
+## Recomendaciones importantes
 
-1. Ejecutar el programa
-2. Cargar un archivo de autómata (`.jff`, `.json` o `.xml`)
-3. Ingresar una cadena de prueba
-4. Ejecutar la validación para verificar si la cadena es aceptada o rechazada
-
----
-
-## Notas importantes
-
-* El entorno incluido ya contiene las configuraciones necesarias
-* No es necesario instalar JFLAP manualmente
-* Asegurarse de tener Python instalado (versión 3.8 o superior)
-* Ejecutar siempre desde la carpeta `UL`
-* No modificar la estructura de carpetas del `.zip`
+* Ejecutar el programa directamente desde la carpeta `afd_simulator_project`
+* No modificar la estructura interna del proyecto
+* Asegurarse de tener Python instalado
+* Este método evita la instalación manual de JFLAP, tal como se solicitó en la práctica
 
 ---
 
