@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+  <type>fa</type>
+  <automaton>
+    <state id="0" name="q0">
+      <x>50</x>
+      <y>150</y>
+      <initial/>
+    </state>
+    <state id="1" name="q_dead">
+      <x>170</x>
+      <y>260</y>
+    </state>
+    <state id="2" name="q1">
+      <x>280</x>
+      <y>150</y>
+      <final/>
+    </state>
+    <state id="3" name="q2">
+      <x>460</x>
+      <y>150</y>
+      <final/>
+    </state>
+    <state id="4" name="q3">
+      <x>640</x>
+      <y>150</y>
+      <final/>
+    </state>
+    <state id="5" name="q4">
+      <x>820</x>
+      <y>150</y>
+    </state>
+    <transition>
+      <from>2</from>
+      <to>2</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>3</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>2</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>4</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>2</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>5</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>5</from>
+      <to>5</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>5</from>
+      <to>5</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>2</to>
+      <read></read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read></read>
+    </transition>
+  </automaton>
+</structure>
