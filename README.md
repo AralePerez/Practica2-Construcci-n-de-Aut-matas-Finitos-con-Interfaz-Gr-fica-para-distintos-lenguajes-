@@ -74,6 +74,7 @@ Este archivo incluye:
 pyton main.py
 o tambien solo hacer click en el main y se abrira 
 ```
+<img width="1751" height="994" alt="image" src="https://github.com/user-attachments/assets/246c5f44-9cbb-44e2-99f0-fce9f0005875" />
 
 ---
 
